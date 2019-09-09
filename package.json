@@ -2,7 +2,7 @@
   "name": "yelp-app",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Robert Shaw <r.shaw1@yahoo.com>",
+  "author": "adp",
   "license": "MIT",
   "scripts": {
     "server": "nodemon ./src/server",
@@ -21,6 +21,7 @@
     "react-dom": "^16.2.0",
     "react-hot-loader": "^3.1.3",
     "react-router-dom": "^4.2.2",
+    "secrets": "^0.1.0",
     "unirest": "^0.5.1"
   },
   "devDependencies": {

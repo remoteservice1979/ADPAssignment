@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 if (process.env.NODE_ENV !== 'production') {
-  require('../../secrets');
+  require('./secrets');
   const webpack = require('webpack');
   const webpackDevMiddleware = require('webpack-dev-middleware');
   const config = require('../../webpack.config.js')(process.env);
